@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!</title>
+  </head>
+  <body>
+
+    <!-- Banner -->
+    <div id="banner">
+        <header id="logo">
+            <img src="img/profile.jpg" onclick="alert('Hi, Selamat datang di Website Portofolio saya')" alt="Hermansyah">
+            <h1>Hermansyah</h1>
+            <p id="job" style="font-size: 20px;"></p>
+        </header>
+        <div id="overlay"></div>
+    </div>
+
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Tentang -->
+        <span>Tentang saya</span>
+        <p class="intro" style="padding-top: 80px; text-align: justify;">
+          Seorang anak muda yang baru lulus dibangku <strong>SMK</strong> yang berkeinginan menjadi <strong>Web Developer</strong>, untuk itu saya membutuhkan ilmu dan pengalaman agar menjadi Web Developer yang handal hingga tingkat <strong>Professional</strong>.
+        </p>
+
+    <hr></hr>
+
+    <!-- Skills -->
+     <span>Kemampuan Saya</span>
+     <div class="skill-row">
+       <img class="gambar1" src="https://media.giphy.com/media/1ynCEtlgMPAeNAqdnu/giphy.gif" alt="Code">
+
+       <h3>Bahasa Pemrograman.</h3>
+        <br><li>HTML 80%<br/>
+        <progress class='progress' min="0" max="100" value="80"></progress></li>
+        <li>PHP 60%<br/>
+        <progress class='progress' min="0" max="100" value="60"></progress></li>
+        <li>CSS 70%<br/>
+        <progress class='progress' min="0" max="100" value="70"></progress></li>
+        
+       <p style="text-align: justify;">Saya mulai belajar Bahasa pemrograman pada saat duduk dibangku SMK. Seperti <strong>C++</strong>, <strong>C#</strong>, <strong>Java</strong> dan menggunakannya untuk Pemrograman Kompetitif.</p>
+     </div>
+     <div class="skill-row">
+       <img class="gambar2" src="https://media.giphy.com/media/jy8vg5OMyvbVJ1yRXa/giphy.gif" alt="Brain">
+       <h3>Keterampilan Teknis</h3>
+        <p>Front End Web Developement menggunakan <strong>HTML</strong>,<strong>CSS</strong>,<strong>JavaScript</strong>,dan <strong>Bootstrap</strong>.</p>
+     </div>
+
+   <hr></hr>
+
+   <!-- Kontak -->
+     <span>Kontak</span>
+     <p class="kontak">Jika anda ingin menanyakan sesuatu, anda bisa menghubungi saya</p>
+     <a class="btn" href="mailto:0dayherman.id@gmail.com" onclick="alert('Terima Kasih sudah menghubungi saya')">KONTAK SAYA</a>
+
+ </div> <!-- End Container -->
+
+<!-- Footer-->
+ <div class="footer">
+   <a class="footer-link" href="https://www.Instagram.com/0daysec/" target="_blank">Instagram</a>
+   <a class="footer-link" href="https://github.com/0dayherman" target="_blank">Github</a>
+   <p class="copyright">&copy; 2019 Hermansyah.</p>
+ </div>
+
+</body>
+
+<!-- JavaScript -->
+<script>
+    //Text
+    document.getElementById("job").innerHTML = "Web Developer";
+</script>
+
+</html>
+
